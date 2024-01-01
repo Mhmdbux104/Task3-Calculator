@@ -1,0 +1,100 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Bahnschrift;
+}
+
+html,body{
+    width: 100%;
+    height: 100%;
+}
+
+#main{
+    width: 100%;
+    height: 100%;
+    background-color: rgb(32, 45, 56);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#calculator{
+    width: 30%;
+    height: 80%;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 2px 2px 12px 2px rgb(64, 92, 116) , -2px -2px 12px 2px rgb(64, 92, 116);
+}
+
+#calculator #screen{
+    width: 100%;
+    height: 20%;
+    background-color: rgb(53, 56, 59);
+    border: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 1vw 2vw;
+}
+
+#calculator #screen #display{
+    width: 100%;
+    height: 100%;
+    background-color: rgb(62, 71, 83);
+    border-radius: 3px;
+    border: none;
+    color: white;
+    padding: 1vw;
+    font-size: 30px;
+    display: flex;
+    align-items: center;
+    text-align: right;
+}
+
+#calculator #buttons{
+    width: 100%;
+    height: 80%;
+    border: none;
+    padding: 2vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.row{
+    width: 100%;
+    height: 20%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.button{
+    width: 20%;
+    height: 100%;
+    background-color: white;
+    border-radius: 5px;
+    font-size: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.button{
+   cursor: pointer;
+}
+
+.buttonequal{
+    width: 47%;
+    height: 100%;
+    background-color: white;
+    border: 5px;
+}
+
+.operator{
+    background-color: rgb(62, 71, 83);
+     color: white;
+}
